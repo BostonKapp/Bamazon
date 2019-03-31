@@ -1,0 +1,24 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "store app",
+  "main": "bamazon.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BostonKapp/Bamazon.git"
+  },
+  "author": "me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BostonKapp/Bamazon/issues"
+  },
+  "homepage": "https://github.com/BostonKapp/Bamazon#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "inquirer": "^6.2.2",
+    "mysql": "^2.16.0"
+  }
+}
