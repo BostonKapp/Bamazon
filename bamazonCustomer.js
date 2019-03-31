@@ -17,25 +17,29 @@ var connection = mysql.createConnection({
   connection.connect(function (err) {
     if (err) throw err;
     console.log("connected as id " + connection.threadId + "\n");
-    console.log(res);
   });
-  
-  //a function to promt the user input of what item id they want.
-  function userStart() {
+
+connection.query(`SELECT * FROM products`,
+function(error, results, fields) {
+    if (error) {
+        console.log(error);
+    }
+    else {
+        console.table(results)
+        userStart();
+    }
+});
+
+function userStart() {
   
     inquirer.prompt([
   {
-      type: input,
+      type: `input`,
+      name:`input`,
       message: "Please pick an item ID number 1-10",
-      validate: validateInput,
+      validate: `validateInput`,
       filter: Number
   
   }
     ])
   };
-  userStart();
-  //prompt a message to see how many untits the customer wants to buy
-  
-  //create  function to see if the quantity requested can be fufilled by bamazon
-  
-  //create a function to update the data base with the new quantity and give the customer the total
