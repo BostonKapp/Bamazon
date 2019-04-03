@@ -17,4 +17,6 @@ I am going to make a online store similar to Amazon using Node and MySQl.
 
 ## Screenshots
 ![2019-04-02 (1)](https://user-images.githubusercontent.com/46547200/55450610-d39cb600-559d-11e9-9b02-bd50124bb37f.png)
-    - If the inventory has enough items, the order will be processed
+   Start the customer.js
+
+![2019-04-02 (2)](https://user-images.githubusercontent.com/46547200/55450716-0cd52600-559e-11e9-8f22-bf29cac733bb.png)
