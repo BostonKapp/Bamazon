@@ -20,4 +20,6 @@ I am going to make a online store similar to Amazon using Node and MySQl.
 Start the customer.js
 
 ![2019-04-02 (3)](https://user-images.githubusercontent.com/46547200/55450753-3d1cc480-559e-11e9-97d9-5e21875018d8.png)
-Bring forth the table
+Prompt User if they would like to purchase an item
+
+![2019-04-02 (4)](https://user-images.githubusercontent.com/46547200/55450799-65a4be80-559e-11e9-8ff6-1fcd4a7618bc.png)
