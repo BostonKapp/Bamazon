@@ -23,3 +23,7 @@ Start the customer.js
 Prompt User if they would like to purchase an item
 
 ![2019-04-02 (4)](https://user-images.githubusercontent.com/46547200/55450799-65a4be80-559e-11e9-8ff6-1fcd4a7618bc.png)
+Ask the User how many they would like to purchase
+
+![2019-04-02 (5)](https://user-images.githubusercontent.com/46547200/55450842-908f1280-559e-11e9-9637-53ed70c02db5.png)
+Should check the database to see if there are enough of these items
