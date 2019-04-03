@@ -25,10 +25,19 @@ Insert Into Products(product_name, department_name, product_price, stock_quantit
 Values("Bowling Ball", "Sporting Goods", 100, 3)
 
 Insert Into Products(product_name, department_name, product_price, stock_quantity)
-Values("", "", ,)
+Values("Jumanji", "Toys", 800,1)
 
 Insert Into Products(product_name, department_name, product_price, stock_quantity)
-Values("", "", ,)
+Values("Laptop", "Electronics", 400, 75)
 
 Insert Into Products(product_name, department_name, product_price, stock_quantity)
-Values("", "", ,)
+Values("Steak", "Food", 20, 20)
+
+Insert Into Products(product_name, department_name, product_price, stock_quantity)
+Values("Gold Chain", "Jewelry", 700, 10)
+
+Insert Into Products(product_name, department_name, product_price, stock_quantity)
+Values("Fishing Pole", "Sporting Goods", 10, 500)
+
+Insert Into Products(product_name, department_name, product_price, stock_quantity)
+Values("Football", "Sporting Goods", 5, 30)s
