@@ -16,5 +16,5 @@ I am going to make a online store similar to Amazon using Node and MySQl.
 
 
 ## Screenshots
-![Customer Order](/images/bamazonCustomer1.png)
+![Customer Order](/example_images/bamazonCustomer1.png)
     - If the inventory has enough items, the order will be processed
